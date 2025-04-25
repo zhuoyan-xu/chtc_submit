@@ -1,0 +1,79 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+*************************
+** DEPRECATION NOTICE! **
+*************************
+THIS IMAGE IS DEPRECATED and is scheduled for DELETION.
+    https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/support-policy.md
+
+Running job on cxiaogpu4000.chtc.wisc.edu
+GPUs assigned: GPU-050b457a
+Run name: 
+Use wandb: 
+GPU Information:
+Wed Feb 19 20:04:18 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:89:00.0 Off |                    0 |
+| N/A   26C    P0             59W /  400W |       4MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+ls -l
+total 20
+-rw-r--r-- 1 23008 23008    0 Feb 19 20:04 _condor_stderr
+-rw-r--r-- 1 23008 23008    0 Feb 19 20:04 docker_stderror
+-rw-r--r-- 1 23008 23008  848 Feb 19 20:04 hello.py
+-rwxr-xr-x 1 23008 23008  610 Feb 19 20:04 run.sh
+drwxrwxrwt 2 23008 23008 4096 Feb 19 20:04 tmp
+drwxr-xr-x 2 23008 23008 4096 Feb 19 20:04 transfer_test
+drwxrwxrwt 3 23008 23008 4096 Feb 19 20:04 var
+accelerate                    0.21.0
+adallava                      0.1.0       /app/test-adallava
+llava                         1.2.2.post1 /app/test-adallava/LLaVA
+lmms_eval                     0.3.0       /app/test-adallava/lmms-eval
+sentence-transformers         3.4.1
+transformers                  4.37.2
+transformers-stream-generator 0.0.5
+hello word gpu
+True
+12.1
+8
+0
+see GPU
+1
+0
+<torch.cuda.device object at 0x7f4e4a5b4190>
+NVIDIA A100-SXM4-80GB
+os list dir
+['_condor_stderr', '.chirp.config', 'docker_stderror', 'transfer_test', '.docker_sock', '.machine.ad', '.condor_creds', '.update.ad', 'hello.py', 'run.sh', 'var', 'tmp', '.job.ad']
+save to output.json, data length 2
+hello word gpu
+os list dir
+['hello_transfer.py']
+save to transfer_output.json, data length 2

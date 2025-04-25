@@ -1,0 +1,367 @@
+000 (1357408.000.000) 2025-02-19 15:02:32 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1357408.000.000) 2025-02-19 15:02:37 Started transferring input files
+	Transferring to host: <128.104.103.48:9618?addrs=128.104.103.48-9618+[2607-f388-107c-501-ae1f-6bff-fe2c-2f00]-9618&alias=vetsigian0001.chtc.wisc.edu&noUDP&sock=interactive3_1_4097514_0a99_31563>
+...
+040 (1357408.000.000) 2025-02-19 15:02:38 Finished transferring input files
+...
+001 (1357408.000.000) 2025-02-19 15:02:39 Job executing on host: <128.104.103.48:9618?addrs=128.104.103.48-9618+[2607-f388-107c-501-ae1f-6bff-fe2c-2f00]-9618&alias=vetsigian0001.chtc.wisc.edu&noUDP&sock=startd_11061_8124>
+	SlotName: interactive3_1@vetsigian0001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_325a27ef }
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_3123858"
+	Cpus = 2
+	Disk = 10489241
+	GPUs = 1
+	GPUs_GPU_325a27ef = [ Id = "GPU-325a27ef"; Capability = 7.5; DeviceName = "NVIDIA GeForce RTX 2080 Ti"; DeviceUuid = "325a27ef-6479-1be1-6814-10e98e713e68"; ECCEnabled = false; NvidiaDriver = "550.54.14"; DriverVersion = 12.4; DevicePciBusId = "0000:B2:00.0"; GlobalMemoryMb = 11004; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1357408.000.000) 2025-02-19 15:02:48 Image size of job updated: 1500
+	0  -  MemoryUsage of job (MB)
+	256  -  ResidentSetSize of job (KB)
+...
+006 (1357408.000.000) 2025-02-19 15:03:59 Image size of job updated: 1500
+	241  -  MemoryUsage of job (MB)
+	247224  -  ResidentSetSize of job (KB)
+...
+004 (1357408.000.000) 2025-02-19 15:04:00 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	67295759  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        2         2 
+	   Disk (KB)            : 65752    10485760  10489241 
+	   GPUs                 :     0           1         1 "GPU-325a27ef"
+	   GpusMemory (MB)      :   264                       
+	   IoHeavy              :                           0 
+	   Memory (MB)          :   241        8192      8192 
+	   TimeExecute (s)      :    80                       
+	   TimeSlotBusy (s)     :    83                       
+...
+009 (1357408.000.000) 2025-02-19 15:04:00 Job was aborted.
+...
+000 (1357409.000.000) 2025-02-19 15:04:13 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1357409.000.000) 2025-02-19 15:04:16 Started transferring input files
+	Transferring to host: <128.104.103.48:9618?addrs=128.104.103.48-9618+[2607-f388-107c-501-ae1f-6bff-fe2c-2f00]-9618&alias=vetsigian0001.chtc.wisc.edu&noUDP&sock=interactive3_1_4097514_0a99_31564>
+...
+040 (1357409.000.000) 2025-02-19 15:04:16 Finished transferring input files
+...
+001 (1357409.000.000) 2025-02-19 15:04:17 Job executing on host: <128.104.103.48:9618?addrs=128.104.103.48-9618+[2607-f388-107c-501-ae1f-6bff-fe2c-2f00]-9618&alias=vetsigian0001.chtc.wisc.edu&noUDP&sock=startd_11061_8124>
+	SlotName: interactive3_1@vetsigian0001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_325a27ef }
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_3124444"
+	Cpus = 2
+	Disk = 10489241
+	GPUs = 1
+	GPUs_GPU_325a27ef = [ Id = "GPU-325a27ef"; Capability = 7.5; DeviceName = "NVIDIA GeForce RTX 2080 Ti"; DeviceUuid = "325a27ef-6479-1be1-6814-10e98e713e68"; ECCEnabled = false; NvidiaDriver = "550.54.14"; DriverVersion = 12.4; DevicePciBusId = "0000:B2:00.0"; GlobalMemoryMb = 11004; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1357409.000.000) 2025-02-19 15:04:26 Image size of job updated: 1500
+	0  -  MemoryUsage of job (MB)
+	252  -  ResidentSetSize of job (KB)
+...
+006 (1357409.000.000) 2025-02-19 15:09:26 Image size of job updated: 263952
+	25  -  MemoryUsage of job (MB)
+	24784  -  ResidentSetSize of job (KB)
+...
+021 (1357409.000.000) 2025-02-19 16:24:47 Error from starter on interactive3_1@vetsigian0001.chtc.wisc.edu:
+	Docker job has gone over memory limit of 8192 Mb
+	Code 34 Subcode 0
+...
+004 (1357409.000.000) 2025-02-19 16:24:47 Job was evicted. Code 34 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	67295833  -  Run Bytes Received By Job
+	Reason: Error from interactive3_1@vetsigian0001.chtc.wisc.edu: Docker job has gone over memory limit of 8192 Mb
+	Partitionable Resources :     Usage  Request Allocated Assigned
+	   Cpus                 :      0.00        2         2 
+	   Disk (KB)            : 789560    10485760  10489241 
+	   GPUs                 :      0           1         1 "GPU-325a27ef"
+	   GpusMemory (MB)      :    264                       
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     25        8192      8192 
+	   TimeExecute (s)      :   4829                       
+	   TimeSlotBusy (s)     :   4831                       
+...
+012 (1357409.000.000) 2025-02-19 16:24:47 Job was held.
+	Error from interactive3_1@vetsigian0001.chtc.wisc.edu: Docker job has gone over memory limit of 8192 Mb
+	Code 34 Subcode 0
+...
+009 (1357409.000.000) 2025-02-19 16:45:19 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1361581.000.000) 2025-02-20 11:34:40 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1361581.000.000) 2025-02-20 11:34:46 Started transferring input files
+	Transferring to host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=slot1_1_2204193_1e7a_31889>
+...
+040 (1361581.000.000) 2025-02-20 11:34:47 Finished transferring input files
+...
+001 (1361581.000.000) 2025-02-20 11:34:48 Job executing on host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=startd_9955_e165>
+	SlotName: slot1_1@gpu2001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_ddc1c098 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_570341"
+	Cpus = 2
+	Disk = 104858752
+	GPUs = 1
+	GPUs_GPU_ddc1c098 = [ Id = "GPU-ddc1c098"; Capability = 6.0; DeviceName = "Tesla P100-PCIE-16GB"; DeviceUuid = "ddc1c098-16dd-3c4e-0463-5888fb3af09c"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:3B:00.0"; GlobalMemoryMb = 16269; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1361581.000.000) 2025-02-20 11:39:58 Image size of job updated: 70344
+	24  -  MemoryUsage of job (MB)
+	24368  -  ResidentSetSize of job (KB)
+...
+006 (1361581.000.000) 2025-02-20 12:08:25 Image size of job updated: 70344
+	527  -  MemoryUsage of job (MB)
+	540100  -  ResidentSetSize of job (KB)
+...
+004 (1361581.000.000) 2025-02-20 12:08:25 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:10, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	67295833  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :     0.00         2         2 
+	   Disk (KB)            : 65896    104857600 104858752 
+	   GPUs                 :     0            1         1 "GPU-ddc1c098"
+	   GpusMemory (MB)      :   117                        
+	   IoHeavy              :                            0 
+	   Memory (MB)          :   527        81920     81920 
+	   TimeExecute (s)      :  2017                        
+	   TimeSlotBusy (s)     :  2019                        
+...
+009 (1361581.000.000) 2025-02-20 12:08:25 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1363447.000.000) 2025-02-20 16:59:11 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1363447.000.000) 2025-02-20 16:59:18 Started transferring input files
+	Transferring to host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=slot1_1_2204193_1e7a_32600>
+...
+040 (1363447.000.000) 2025-02-20 16:59:19 Finished transferring input files
+...
+001 (1363447.000.000) 2025-02-20 16:59:20 Job executing on host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=startd_9955_e165>
+	SlotName: slot1_1@gpu2001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_ddc1c098 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_645202"
+	Cpus = 2
+	Disk = 104858752
+	GPUs = 1
+	GPUs_GPU_ddc1c098 = [ Id = "GPU-ddc1c098"; Capability = 6.0; DeviceName = "Tesla P100-PCIE-16GB"; DeviceUuid = "ddc1c098-16dd-3c4e-0463-5888fb3af09c"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:3B:00.0"; GlobalMemoryMb = 16269; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+000 (1363448.000.000) 2025-02-20 17:00:08 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1363448.000.000) 2025-02-20 17:00:15 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1363449.000.000) 2025-02-20 17:00:33 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1363449.000.000) 2025-02-20 17:01:07 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1363451.000.000) 2025-02-20 17:02:12 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+006 (1363447.000.000) 2025-02-20 17:08:56 Image size of job updated: 1500
+	4  -  MemoryUsage of job (MB)
+	4536  -  ResidentSetSize of job (KB)
+...
+004 (1363447.000.000) 2025-02-20 17:08:56 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	67295833  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :     0.00         2         2 
+	   Disk (KB)            : 65758    104857600 104858752 
+	   GPUs                 :     0            1         1 "GPU-ddc1c098"
+	   GpusMemory (MB)      :   117                        
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     4        81920     81920 
+	   TimeExecute (s)      :   576                        
+	   TimeSlotBusy (s)     :   578                        
+...
+009 (1363447.000.000) 2025-02-20 17:08:56 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+040 (1363451.000.000) 2025-02-20 17:09:00 Started transferring input files
+	Transferring to host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=slot1_1_2204193_1e7a_32615>
+...
+040 (1363451.000.000) 2025-02-20 17:09:00 Finished transferring input files
+...
+001 (1363451.000.000) 2025-02-20 17:09:01 Job executing on host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=startd_9955_e165>
+	SlotName: slot1_1@gpu2001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_ddc1c098 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_648855"
+	Cpus = 2
+	Disk = 104858752
+	GPUs = 1
+	GPUs_GPU_ddc1c098 = [ Id = "GPU-ddc1c098"; Capability = 6.0; DeviceName = "Tesla P100-PCIE-16GB"; DeviceUuid = "ddc1c098-16dd-3c4e-0463-5888fb3af09c"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:3B:00.0"; GlobalMemoryMb = 16269; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1363451.000.000) 2025-02-20 17:09:10 Image size of job updated: 1500
+	1  -  MemoryUsage of job (MB)
+	1424  -  ResidentSetSize of job (KB)
+...
+006 (1363451.000.000) 2025-02-20 17:14:11 Image size of job updated: 70344
+	25  -  MemoryUsage of job (MB)
+	24580  -  ResidentSetSize of job (KB)
+...
+006 (1363451.000.000) 2025-02-20 17:27:29 Image size of job updated: 70344
+	15745  -  MemoryUsage of job (MB)
+	16123656  -  ResidentSetSize of job (KB)
+...
+004 (1363451.000.000) 2025-02-20 17:27:32 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:42, Sys 0 00:00:35  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1586923  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :     0.01         2         2 
+	   Disk (KB)            :  1668    104857600 104858752 
+	   GPUs                 :     0            1         1 "GPU-ddc1c098"
+	   GpusMemory (MB)      :   117                        
+	   IoHeavy              :                            0 
+	   Memory (MB)          : 15745        81920     81920 
+	   TimeExecute (s)      :  1108                        
+	   TimeSlotBusy (s)     :  1112                        
+...
+009 (1363451.000.000) 2025-02-20 17:27:32 Job was aborted.
+...
+000 (1371154.000.000) 2025-02-21 16:41:59 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1371154.000.000) 2025-02-21 16:42:05 Started transferring input files
+	Transferring to host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=slot1_2_2204193_1e7a_34928>
+...
+040 (1371154.000.000) 2025-02-21 16:42:05 Finished transferring input files
+...
+001 (1371154.000.000) 2025-02-21 16:42:06 Job executing on host: <128.105.68.141:9618?addrs=128.105.68.141-9618+[2607-f388-2200-100-b226-28ff-fe24-f732]-9618&alias=gpu2001.chtc.wisc.edu&noUDP&sock=startd_9955_e165>
+	SlotName: slot1_2@gpu2001.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_9dc7c6d6 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_926893"
+	Cpus = 2
+	Disk = 104858752
+	GPUs = 1
+	GPUs_GPU_9dc7c6d6 = [ Id = "GPU-9dc7c6d6"; Capability = 6.0; DeviceName = "Tesla P100-PCIE-16GB"; DeviceUuid = "9dc7c6d6-0f4d-1ade-20c1-6d83724b9a8b"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:D8:00.0"; GlobalMemoryMb = 16269; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1371154.000.000) 2025-02-21 16:42:15 Image size of job updated: 1500
+	0  -  MemoryUsage of job (MB)
+	900  -  ResidentSetSize of job (KB)
+...
+006 (1371154.000.000) 2025-02-21 16:44:41 Image size of job updated: 1500
+	29  -  MemoryUsage of job (MB)
+	30120  -  ResidentSetSize of job (KB)
+...
+004 (1371154.000.000) 2025-02-21 16:44:41 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1587200  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :     0.00         2         2 
+	   Disk (KB)            :  1581    104857600 104858752 
+	   GPUs                 :     0            1         1 "GPU-9dc7c6d6"
+	   GpusMemory (MB)      :   117                        
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    29        81920     81920 
+	   TimeExecute (s)      :   155                        
+	   TimeSlotBusy (s)     :   156                        
+...
+009 (1371154.000.000) 2025-02-21 16:44:41 Job was aborted.
+...
+000 (1372199.000.000) 2025-02-25 15:59:03 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1372199.000.000) 2025-02-25 15:59:09 Started transferring input files
+	Transferring to host: <128.105.68.165:9618?addrs=128.105.68.165-9618+[2607-f388-2200-100-b62e-99ff-feb5-a72]-9618&alias=gpulab2000.chtc.wisc.edu&noUDP&sock=slot1_3_1636352_c3e7_47880>
+...
+040 (1372199.000.000) 2025-02-25 15:59:09 Finished transferring input files
+...
+001 (1372199.000.000) 2025-02-25 15:59:10 Job executing on host: <128.105.68.165:9618?addrs=128.105.68.165-9618+[2607-f388-2200-100-b62e-99ff-feb5-a72]-9618&alias=gpulab2000.chtc.wisc.edu&noUDP&sock=startd_8474_09a2>
+	SlotName: slot1_3@gpulab2000.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_dc5952b3 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_28296"
+	Cpus = 2
+	Disk = 104862654
+	GPUs = 1
+	GPUs_GPU_dc5952b3 = [ Id = "GPU-dc5952b3"; Capability = 7.5; DeviceName = "NVIDIA GeForce RTX 2080 Ti"; DeviceUuid = "dc5952b3-bf33-4089-e5cd-7278ca3f0fe6"; ECCEnabled = false; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:60:00.0"; GlobalMemoryMb = 11004; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1372199.000.000) 2025-02-25 16:04:20 Image size of job updated: 1500
+	4  -  MemoryUsage of job (MB)
+	4464  -  ResidentSetSize of job (KB)
+...
+004 (1372199.000.000) 2025-02-25 16:05:36 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1596614  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :     0.00         2         2 
+	   Disk (KB)            :  1593    104857600 104862654 
+	   GPUs                 :     0            1         1 "GPU-dc5952b3"
+	   GpusMemory (MB)      :   264                        
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     4        81920     81920 
+	   TimeExecute (s)      :   386                        
+	   TimeSlotBusy (s)     :   387                        
+...
+009 (1372199.000.000) 2025-02-25 16:05:36 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1790896.000.000) 2025-04-25 11:41:51 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1790896.000.000) 2025-04-25 11:42:01 Started transferring input files
+	Transferring to host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=interactive1_2_3357127_6bde_39575>
+...
+040 (1790896.000.000) 2025-04-25 11:42:01 Finished transferring input files
+...
+001 (1790896.000.000) 2025-04-25 11:42:11 Job executing on host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+	SlotName: interactive1_2@gpulab2004.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_c6cfdc9c }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1459629"
+	Cpus = 2
+	Disk = 104861177
+	GPUs = 1
+	GPUs_GPU_c6cfdc9c = [ Id = "GPU-c6cfdc9c"; Capability = 8.0; DeviceName = "NVIDIA A100-SXM4-40GB"; DeviceUuid = "c6cfdc9c-63df-c5b3-3605-7bc4b2545434"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:41:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1790896.000.000) 2025-04-25 11:47:12 Image size of job updated: 70456
+	24  -  MemoryUsage of job (MB)
+	24396  -  ResidentSetSize of job (KB)
+...
+004 (1790896.000.000) 2025-04-25 12:44:35 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1603640  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :        0         2         2 
+	   Disk (KB)            :     1888 104857600 104861177 
+	   GPUs                 :        0         1         1 "GPU-c6cfdc9c"
+	   GpusMemory (MB)      :      638                     
+	   IoHeavy              :                            0 
+	   Memory (MB)          :       24     81920     81920 
+	   TimeExecute (s)      :     3458                     
+	   TimeSlotBusy (s)     :     3756                     
+...
+009 (1790896.000.000) 2025-04-25 12:44:35 Job was aborted.
+...

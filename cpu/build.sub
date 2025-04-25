@@ -1,0 +1,33 @@
+JobBatchName            = "cpu template"
+
+
+universe                = docker
+docker_image            = zhuoyanxu/adallava:latest
+docker_network_type     = host
+
+# Artefact
+Requirements            = (Target.HasCHTCStaging == true)
+executable              = run.sh
+arguments               = $(state) $(year)
+transfer_input_files    = hello.py
+should_transfer_files   = YES
+
+# Checkpoint
+checkpoint_exit_code    = 85
++is_resumable           = true
+
+# Logging
+stream_output           = true
+output                  = condor_log/output.$(Cluster)-$(Process).txt
+error                   = condor_log/error.$(Cluster)-$(Process).txt
+log                     = condor_log/log.$(Cluster)-$(Process).txt
+
+# Compute resources
+request_cpus            = 2
+request_memory          = 8GB
+request_disk            = 100GB
+
+
+# Runs
+# queue 1
+queue state,year from states.txt

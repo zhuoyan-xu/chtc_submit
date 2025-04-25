@@ -1,0 +1,110 @@
+000 (1353317.000.000) 2025-02-16 17:15:39 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1353317.000.000) 2025-02-16 17:15:40 Started transferring input files
+	Transferring to host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=build1_3_2153153_d25e_43180>
+...
+040 (1353317.000.000) 2025-02-16 17:15:40 Finished transferring input files
+...
+001 (1353317.000.000) 2025-02-16 17:15:41 Job executing on host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=startd_14556_c8a4>
+	SlotName: build1_3@build4001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3288299"
+	Cpus = 2
+	Disk = 10486913
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1353317.000.000) 2025-02-16 17:15:51 Image size of job updated: 1500
+	2  -  MemoryUsage of job (MB)
+	2400  -  ResidentSetSize of job (KB)
+...
+006 (1353317.000.000) 2025-02-16 17:16:25 Image size of job updated: 1500
+	2  -  MemoryUsage of job (MB)
+	2916  -  ResidentSetSize of job (KB)
+...
+004 (1353317.000.000) 2025-02-16 17:16:25 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	24442  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.01        2         2 
+	   Disk (KB)            :    52    10485760  10486913 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     2        8192      8192 
+	   TimeExecute (s)      :    44                       
+	   TimeSlotBusy (s)     :    45                       
+...
+009 (1353317.000.000) 2025-02-16 17:16:25 Job was aborted.
+...
+000 (1372202.000.000) 2025-02-25 16:04:03 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1372202.000.000) 2025-02-25 16:04:04 Started transferring input files
+	Transferring to host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=build1_2_2153153_d25e_69343>
+...
+040 (1372202.000.000) 2025-02-25 16:04:04 Finished transferring input files
+...
+021 (1372202.000.000) 2025-02-25 16:04:04 Error from starter on build1_2@build4001.chtc.wisc.edu:
+	Failed to transfer files: SHADOW at 128.105.68.112 failed to send file(s) to <128.105.69.148:35749>: |Error: reading from file /home/zxu444/projects/submit/interact/hello.py: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.105.68.112:9618>
+	Code 13 Subcode 2
+...
+004 (1372202.000.000) 2025-02-25 16:04:04 Job was evicted. Code 13 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Transfer input files failure at access point ap2001 while sending files to execution point build1_2@build4001.chtc.wisc.edu. Details: reading from file /home/zxu444/projects/submit/interact/hello.py: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :     1578 10485760  10486913 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              8192      8192 
+...
+012 (1372202.000.000) 2025-02-25 16:04:04 Job was held.
+	Transfer input files failure at access point ap2001 while sending files to execution point build1_2@build4001.chtc.wisc.edu. Details: reading from file /home/zxu444/projects/submit/interact/hello.py: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+009 (1372202.000.000) 2025-02-25 16:05:07 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1372203.000.000) 2025-02-25 16:05:12 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1372203.000.000) 2025-02-25 16:05:15 Started transferring input files
+	Transferring to host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=build1_2_2153153_d25e_69344>
+...
+040 (1372203.000.000) 2025-02-25 16:05:15 Finished transferring input files
+...
+001 (1372203.000.000) 2025-02-25 16:05:16 Job executing on host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=startd_14556_c8a4>
+	SlotName: build1_2@build4001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2612696"
+	Cpus = 2
+	Disk = 10486913
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1372203.000.000) 2025-02-25 16:10:03 Image size of job updated: 1500
+	8  -  MemoryUsage of job (MB)
+	9164  -  ResidentSetSize of job (KB)
+...
+004 (1372203.000.000) 2025-02-25 16:10:03 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	24442  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        2         2 
+	   Disk (KB)            :    55    10485760  10486913 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     8        8192      8192 
+	   TimeExecute (s)      :   287                       
+	   TimeSlotBusy (s)     :   288                       
+...
+009 (1372203.000.000) 2025-02-25 16:10:03 Job was aborted.
+...

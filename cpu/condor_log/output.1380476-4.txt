@@ -1,0 +1,36 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+*************************
+** DEPRECATION NOTICE! **
+*************************
+THIS IMAGE IS DEPRECATED and is scheduled for DELETION.
+    https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/support-policy.md
+
+Running job on e2017
+Run name: wisconsin.data
+Use wandb: 2000
+accelerate                    0.28.0
+adallava                      0.1.0         /app/test-adallava
+llava                         1.2.2.post1   /app/test-adallava/LLaVA
+lmms_eval                     0.3.0         /app/test-adallava/lmms-eval
+sentence-transformers         3.4.1
+transformers                  4.37.2
+transformers-stream-generator 0.0.5
+hello word cpu

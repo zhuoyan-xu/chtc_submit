@@ -1,0 +1,285 @@
+000 (1353061.000.000) 2025-02-16 13:04:46 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1353061.000.000) 2025-02-16 13:04:50 Started transferring input files
+	Transferring to host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=build1_2_2153153_d25e_42785>
+...
+040 (1353061.000.000) 2025-02-16 13:04:50 Finished transferring input files
+...
+001 (1353061.000.000) 2025-02-16 13:04:51 Job executing on host: <128.105.69.148:9618?addrs=128.105.69.148-9618+[2607-f388-2200-100-1270-fdff-fe56-ceec]-9618&alias=build4001.chtc.wisc.edu&noUDP&sock=startd_14556_c8a4>
+	SlotName: build1_2@build4001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3236918"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (1353061.000.000) 2025-02-16 13:05:00 Image size of job updated: 1500
+	1  -  MemoryUsage of job (MB)
+	364  -  ResidentSetSize of job (KB)
+...
+006 (1353061.000.000) 2025-02-16 13:05:10 Image size of job updated: 1848
+	2  -  MemoryUsage of job (MB)
+	1848  -  ResidentSetSize of job (KB)
+...
+006 (1353061.000.000) 2025-02-16 15:32:22 Image size of job updated: 1848
+	3  -  MemoryUsage of job (MB)
+	2240  -  ResidentSetSize of job (KB)
+...
+040 (1353061.000.000) 2025-02-16 15:32:22 Started transferring output files
+...
+040 (1353061.000.000) 2025-02-16 15:32:22 Finished transferring output files
+...
+005 (1353061.000.000) 2025-02-16 15:32:22 Job terminated.
+	(1) Normal termination (return value 255)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	49  -  Run Bytes Sent By Job
+	24442  -  Run Bytes Received By Job
+	49  -  Total Bytes Sent By Job
+	24442  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       65  2097152   2098305 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        3     4096      4096 
+	   TimeExecute (s)      :     8851                    
+	   TimeSlotBusy (s)     :     8852                    
+
+	Job terminated of its own accord at 2025-02-16T19:05:10Z with signal 15.
+...
+000 (1353290.000.000) 2025-02-16 15:48:42 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1353290.000.000) 2025-02-16 16:29:07 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1353309.000.000) 2025-02-16 16:29:25 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1353309.000.000) 2025-02-16 16:29:37 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1353310.000.000) 2025-02-16 16:29:52 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1353310.000.000) 2025-02-16 16:49:47 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1353330.000.000) 2025-02-16 17:39:00 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1353330.000.000) 2025-02-16 17:42:10 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1353333.000.000) 2025-02-16 17:45:26 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1353333.000.000) 2025-02-17 13:43:09 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1354077.000.000) 2025-02-17 13:43:22 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1354077.000.000) 2025-02-18 10:42:48 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1354821.000.000) 2025-02-18 10:43:13 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1354821.000.000) 2025-02-18 10:43:38 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1354823.000.000) 2025-02-18 10:44:05 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1354823.000.000) 2025-02-18 10:46:13 Started transferring input files
+	Transferring to host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=interactive1_1_1538939_7e8e_204081>
+...
+040 (1354823.000.000) 2025-02-18 10:46:13 Finished transferring input files
+...
+001 (1354823.000.000) 2025-02-18 10:46:14 Job executing on host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+	SlotName: interactive1_1@gpulab2004.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_124d06a7 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_22047"
+	Cpus = 2
+	Disk = 10489337
+	GPUs = 1
+	GPUs_GPU_124d06a7 = [ Id = "GPU-124d06a7"; Capability = 8.0; DeviceName = "NVIDIA A100-SXM4-40GB"; DeviceUuid = "124d06a7-6642-3962-9afa-c86c31b9a7e6"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:01:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1354823.000.000) 2025-02-18 10:51:22 Image size of job updated: 70316
+	25  -  MemoryUsage of job (MB)
+	25340  -  ResidentSetSize of job (KB)
+...
+006 (1354823.000.000) 2025-02-18 11:51:51 Image size of job updated: 70316
+	227  -  MemoryUsage of job (MB)
+	233364  -  ResidentSetSize of job (KB)
+...
+004 (1354823.000.000) 2025-02-18 11:51:51 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:02, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	24442  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :      108 10485760  10489337 
+	   GPUs                 :        0        1         1 "GPU-124d06a7"
+	   GpusMemory (MB)      :      638                    
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      227     8192      8192 
+	   TimeExecute (s)      :     3937                    
+	   TimeSlotBusy (s)     :     3939                    
+...
+009 (1354823.000.000) 2025-02-18 11:51:51 Job was aborted.
+...
+000 (1354962.000.000) 2025-02-18 12:02:07 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+022 (1354962.000.000) 2025-02-18 12:02:14 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to interactive1_1@gpulab2004.chtc.wisc.edu <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+...
+024 (1354962.000.000) 2025-02-18 12:02:23 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to interactive1_1@gpulab2004.chtc.wisc.edu, rescheduling job
+...
+000 (1354965.000.000) 2025-02-18 12:03:51 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+022 (1354965.000.000) 2025-02-18 12:03:56 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to interactive1_1@gpulab2004.chtc.wisc.edu <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+...
+024 (1354965.000.000) 2025-02-18 12:04:04 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to interactive1_1@gpulab2004.chtc.wisc.edu, rescheduling job
+...
+000 (1354967.000.000) 2025-02-18 12:07:03 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+022 (1354967.000.000) 2025-02-18 12:07:06 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to interactive1_1@gpulab2004.chtc.wisc.edu <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+...
+024 (1354967.000.000) 2025-02-18 12:07:14 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to interactive1_1@gpulab2004.chtc.wisc.edu, rescheduling job
+...
+000 (1354971.000.000) 2025-02-18 12:11:38 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1354971.000.000) 2025-02-18 12:11:45 Started transferring input files
+	Transferring to host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=interactive1_1_1538939_7e8e_207710>
+...
+040 (1354971.000.000) 2025-02-18 12:11:45 Finished transferring input files
+...
+001 (1354971.000.000) 2025-02-18 12:11:46 Job executing on host: <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+	SlotName: interactive1_1@gpulab2004.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_124d06a7 }
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_315177"
+	Cpus = 2
+	Disk = 10489337
+	GPUs = 1
+	GPUs_GPU_124d06a7 = [ Id = "GPU-124d06a7"; Capability = 8.0; DeviceName = "NVIDIA A100-SXM4-40GB"; DeviceUuid = "124d06a7-6642-3962-9afa-c86c31b9a7e6"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:01:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 8192
+...
+006 (1354971.000.000) 2025-02-18 12:11:54 Image size of job updated: 1500
+	2  -  MemoryUsage of job (MB)
+	2400  -  ResidentSetSize of job (KB)
+...
+006 (1354971.000.000) 2025-02-18 12:12:44 Image size of job updated: 1500
+	2  -  MemoryUsage of job (MB)
+	2656  -  ResidentSetSize of job (KB)
+...
+004 (1354971.000.000) 2025-02-18 12:12:44 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	24442  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.03        2         2 
+	   Disk (KB)            :    80    10485760  10489337 
+	   GPUs                 :                 1         1 "GPU-124d06a7"
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     2        8192      8192 
+	   TimeExecute (s)      :    58                       
+	   TimeSlotBusy (s)     :    60                       
+...
+009 (1354971.000.000) 2025-02-18 12:12:44 Job was aborted.
+...
+004 (1354962.000.000) 2025-02-18 12:42:14 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :     1500 10485760  10489337 
+	   GPUs                 :                 1         1 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              8192      8192 
+...
+009 (1354962.000.000) 2025-02-18 12:42:14 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+004 (1354965.000.000) 2025-02-18 12:43:56 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :     1500 10485760  10489337 
+	   GPUs                 :                 1         1 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              8192      8192 
+...
+009 (1354965.000.000) 2025-02-18 12:43:56 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+004 (1354967.000.000) 2025-02-18 12:47:06 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :     1500 10485760  10489337 
+	   GPUs                 :                 1         1 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              8192      8192 
+...
+009 (1354967.000.000) 2025-02-18 12:47:06 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1355167.000.000) 2025-02-18 13:10:13 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+009 (1355167.000.000) 2025-02-18 13:10:24 Job was aborted.
+	via condor_rm (by user zxu444)
+...
+000 (1355168.000.000) 2025-02-18 13:10:32 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+022 (1355168.000.000) 2025-02-18 13:10:42 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to interactive1_1@gpulab2004.chtc.wisc.edu <128.105.68.23:9618?addrs=128.105.68.23-9618+[2607-f388-2200-100-3eec-efff-fe0c-50a0]-9618&alias=gpulab2004.chtc.wisc.edu&noUDP&sock=startd_10719_ebc0>
+...
+024 (1355168.000.000) 2025-02-18 13:10:43 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to interactive1_1@gpulab2004.chtc.wisc.edu, rescheduling job
+...
+004 (1355168.000.000) 2025-02-18 13:50:42 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :    17500 10485760  10489337 
+	   GPUs                 :                 1         1 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :              8192      8192 
+...

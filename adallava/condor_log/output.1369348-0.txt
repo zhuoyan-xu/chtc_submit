@@ -1,0 +1,71 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+*************************
+** DEPRECATION NOTICE! **
+*************************
+THIS IMAGE IS DEPRECATED and is scheduled for DELETION.
+    https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/support-policy.md
+
+Running job on gpulab2005.chtc.wisc.edu
+GPUs assigned: GPU-d3296bd0
+Run name: 
+Use wandb: 
+GPU Information:
+Fri Feb 21 18:07:36 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:01:00.0 Off |                    0 |
+| N/A   34C    P0             53W /  400W |       5MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+ls -l
+total 36
+-rw-r--r-- 1 23008 23008    0 Feb 21 18:07 _condor_stderr
+-rw-r--r-- 1 23008 23008 9151 Feb 21 18:07 docker_stderror
+-rw-r--r-- 1 23008 23008  840 Feb 21 18:02 hello.py
+-rw-r--r-- 1 23008 23008 1264 Feb 21 18:02 quick.py
+-rwxr-xr-x 1 23008 23008  566 Feb 21 18:02 run.sh
+drwxr-xr-x 3 23008 23008 4096 Feb 21 18:02 src
+drwxrwxrwt 2 23008 23008 4096 Feb 21 18:02 tmp
+drwxrwxrwt 3 23008 23008 4096 Feb 21 18:02 var
+accelerate                    0.28.0
+adallava                      0.1.0         /app/test-adallava
+llava                         1.2.2.post1   /app/test-adallava/LLaVA
+lmms_eval                     0.3.0         /app/test-adallava/lmms-eval
+sentence-transformers         3.4.1
+transformers                  4.37.2
+transformers-stream-generator 0.0.5
+When visiting this location, which features a pier overlooking a large body of water, there are several things to be cautious about. First, be mindful of the weather conditions, as the image shows a cloudy sky. Sudden changes in weather, such as rain or strong winds, can make the pier less safe to walk on or even cause it to collapse. Second, be aware of the water depth and currents, as the pier may extend into deeper water. This can pose a risk for inexperienced swimmers or people who are not strong swimmers. Finally, be cautious about the presence of any wildlife in the area, as the image shows a bird nearby. This could indicate the presence of other animals that might pose a threat or be disturbed by human presence. It is essential to respect the environment and wildlife while enjoying the view from the pier.
+use config file configs/Llama.py for zhuoyanxu/ada-llava-L-v1.5-7b
+flops                         : 11.0T
+avg_flops                     : 58.3G
+prefill_flops                 : 8.5T
+memory_consumption            : 2.5T
+prefill_memory_consumption    : 13.4G
+save to output/quick_res.json, data length 5

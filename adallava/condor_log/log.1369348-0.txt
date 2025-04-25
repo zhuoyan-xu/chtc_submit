@@ -1,0 +1,52 @@
+000 (1369348.000.000) 2025-02-21 11:38:46 Job submitted from host: <128.105.68.112:9618?addrs=128.105.68.112-9618+[2607-f388-2200-100-eaeb-d3ff-fea3-4202]-9618&alias=ap2001.chtc.wisc.edu&noUDP&sock=schedd_1987781_0208>
+...
+040 (1369348.000.000) 2025-02-21 12:02:10 Started transferring input files
+	Transferring to host: <128.105.68.5:9618?addrs=128.105.68.5-9618+[2607-f388-2200-100-eaeb-d3ff-fe53-f4a0]-9618&alias=gpulab2005.chtc.wisc.edu&noUDP&sock=backfill2_1_10966_49f7_24985>
+...
+040 (1369348.000.000) 2025-02-21 12:02:10 Finished transferring input files
+...
+001 (1369348.000.000) 2025-02-21 12:02:10 Job executing on host: <128.105.68.5:9618?addrs=128.105.68.5-9618+[2607-f388-2200-100-eaeb-d3ff-fe53-f4a0]-9618&alias=gpulab2005.chtc.wisc.edu&noUDP&sock=startd_10772_4645>
+	SlotName: backfill2_1@gpulab2005.chtc.wisc.edu
+	AvailableGPUs = { GPUs_GPU_d3296bd0 }
+	CondorScratchDir = "/var/lib/condor/execute/slot2/dir_3772683"
+	Cpus = 2
+	Disk = 104858838
+	GPUs = 1
+	GPUs_GPU_d3296bd0 = [ Id = "GPU-d3296bd0"; Capability = 8.0; DeviceName = "NVIDIA A100-SXM4-40GB"; DeviceUuid = "d3296bd0-acc0-52e5-cacf-35fa2fd0511d"; ECCEnabled = true; NvidiaDriver = "550.90.07"; DriverVersion = 12.4; DevicePciBusId = "0000:01:00.0"; GlobalMemoryMb = 40326; MaxSupportedVersion = 12040 ]
+	IoHeavy = 0
+	Memory = 81920
+...
+006 (1369348.000.000) 2025-02-21 12:12:20 Image size of job updated: 11862
+	11862  -  MemoryUsage of job (MB)
+	12147028  -  ResidentSetSize of job (KB)
+...
+006 (1369348.000.000) 2025-02-21 12:13:20 Image size of job updated: 15959
+	15959  -  MemoryUsage of job (MB)
+	16342296  -  ResidentSetSize of job (KB)
+...
+040 (1369348.000.000) 2025-02-21 12:13:20 Started transferring output files
+...
+040 (1369348.000.000) 2025-02-21 12:13:20 Finished transferring output files
+...
+005 (1369348.000.000) 2025-02-21 12:13:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:20  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:20  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3154  -  Run Bytes Sent By Job
+	1564164  -  Run Bytes Received By Job
+	3154  -  Total Bytes Sent By Job
+	1564164  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage   Request Allocated Assigned
+	   Cpus                 :        0         2         2 
+	   Disk (KB)            :     1643 104857600 104858838 
+	   GPUs                 :        0         1         1 "GPU-d3296bd0"
+	   GpusMemory (MB)      :      638                     
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    15959     81920     81920 
+	   TimeExecute (s)      :      670                     
+	   TimeSlotBusy (s)     :      673                     
+
+	Job terminated of its own accord at 2025-02-21T18:13:20Z with exit-code 0.
+...

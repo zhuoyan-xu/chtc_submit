@@ -1,0 +1,7 @@
+{
+    "flops": "11.0T",
+    "avg_flops": "58.3G",
+    "prefill_flops": "8.5T",
+    "memory_consumption": "2.5T",
+    "prefill_memory_consumption": "13.4G"
+}

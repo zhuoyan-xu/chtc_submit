@@ -1,0 +1,120 @@
+Unable to find image 'zhuoyanxu/adallava:latest' locally
+latest: Pulling from zhuoyanxu/adallava
+aece8493d397: Pulling fs layer
+45f7ea5367fe: Pulling fs layer
+3d97a47c3c73: Pulling fs layer
+12cd4d19752f: Pulling fs layer
+da5a484f9d74: Pulling fs layer
+5e5846364eee: Pulling fs layer
+fd355de1d1f2: Pulling fs layer
+3480bb79c638: Pulling fs layer
+e7016935dd60: Pulling fs layer
+99541166a133: Pulling fs layer
+8999112df5b0: Pulling fs layer
+656f8da5a68b: Pulling fs layer
+da5a484f9d74: Waiting
+c085755541a2: Pulling fs layer
+369eb12abd07: Pulling fs layer
+5e5846364eee: Waiting
+bc8de79bd230: Pulling fs layer
+e7016935dd60: Waiting
+3480bb79c638: Waiting
+e4d311807b44: Pulling fs layer
+81baab6a742f: Pulling fs layer
+0c392b78ab5a: Pulling fs layer
+45ab255a6f74: Pulling fs layer
+9ea9908c4af8: Pulling fs layer
+551eba9a0a4e: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4b412d1cf10c: Pulling fs layer
+fd355de1d1f2: Waiting
+8999112df5b0: Waiting
+656f8da5a68b: Waiting
+9fa1ebe8ecd0: Pulling fs layer
+c085755541a2: Waiting
+bc8de79bd230: Waiting
+81baab6a742f: Waiting
+038cc114b7b5: Pulling fs layer
+45ab255a6f74: Waiting
+e4d311807b44: Waiting
+9ea9908c4af8: Waiting
+4f4fb700ef54: Waiting
+551eba9a0a4e: Waiting
+038cc114b7b5: Waiting
+9fa1ebe8ecd0: Waiting
+4b412d1cf10c: Waiting
+45f7ea5367fe: Verifying Checksum
+45f7ea5367fe: Download complete
+12cd4d19752f: Verifying Checksum
+12cd4d19752f: Download complete
+da5a484f9d74: Verifying Checksum
+da5a484f9d74: Download complete
+aece8493d397: Verifying Checksum
+aece8493d397: Download complete
+3d97a47c3c73: Verifying Checksum
+3d97a47c3c73: Download complete
+fd355de1d1f2: Verifying Checksum
+fd355de1d1f2: Download complete
+3480bb79c638: Verifying Checksum
+3480bb79c638: Download complete
+e7016935dd60: Download complete
+8999112df5b0: Verifying Checksum
+8999112df5b0: Download complete
+aece8493d397: Pull complete
+45f7ea5367fe: Pull complete
+3d97a47c3c73: Pull complete
+12cd4d19752f: Pull complete
+da5a484f9d74: Pull complete
+5e5846364eee: Verifying Checksum
+5e5846364eee: Download complete
+c085755541a2: Verifying Checksum
+c085755541a2: Download complete
+369eb12abd07: Verifying Checksum
+369eb12abd07: Download complete
+bc8de79bd230: Verifying Checksum
+bc8de79bd230: Download complete
+e4d311807b44: Download complete
+81baab6a742f: Verifying Checksum
+81baab6a742f: Download complete
+0c392b78ab5a: Verifying Checksum
+0c392b78ab5a: Download complete
+45ab255a6f74: Verifying Checksum
+45ab255a6f74: Download complete
+9ea9908c4af8: Verifying Checksum
+9ea9908c4af8: Download complete
+551eba9a0a4e: Verifying Checksum
+551eba9a0a4e: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+656f8da5a68b: Verifying Checksum
+656f8da5a68b: Download complete
+99541166a133: Verifying Checksum
+99541166a133: Download complete
+038cc114b7b5: Verifying Checksum
+038cc114b7b5: Download complete
+9fa1ebe8ecd0: Verifying Checksum
+9fa1ebe8ecd0: Download complete
+4b412d1cf10c: Verifying Checksum
+4b412d1cf10c: Download complete
+5e5846364eee: Pull complete
+fd355de1d1f2: Pull complete
+3480bb79c638: Pull complete
+e7016935dd60: Pull complete
+99541166a133: Pull complete
+8999112df5b0: Pull complete
+656f8da5a68b: Pull complete
+c085755541a2: Pull complete
+369eb12abd07: Pull complete
+bc8de79bd230: Pull complete
+e4d311807b44: Pull complete
+81baab6a742f: Pull complete
+0c392b78ab5a: Pull complete
+45ab255a6f74: Pull complete
+9ea9908c4af8: Pull complete
+551eba9a0a4e: Pull complete
+4f4fb700ef54: Pull complete
+4b412d1cf10c: Pull complete
+9fa1ebe8ecd0: Pull complete
+038cc114b7b5: Pull complete
+Digest: sha256:42d93d2197872ca56fbda13cbc77aa014740ea3ab7d8af3a20393cece534367d
+Status: Downloaded newer image for zhuoyanxu/adallava:latest
